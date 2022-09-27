@@ -3,8 +3,7 @@ class Anfibio (Animal):
     listado = []
     ranas = 0
     salamandras = 0
-
-    def __int__(self, nombre= None, edad=0, habitat=None, genero=None, colorPiel=None, venenoso= False):
+    def __init__(self, nombre, edad, habitat, genero, colorPiel, venenoso):
         super().__init__(nombre, edad, habitat, genero)
         super().totalAnimales +=1
         self.__colorPiel = colorPiel
