@@ -1,4 +1,4 @@
-from gestion.Zoologico import Zoologico
+from gestion.zoologico import Zoologico
 from zooAnimales.Animal import *
 class Zona:
     pass
