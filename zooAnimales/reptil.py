@@ -4,8 +4,8 @@ class Reptil (Animal):
     iguanas = 0
     serpientes = 0
 
-    def __int__(self, nombre= None, edad=0, habitat=None, genero=None, zona=None, colorEscamas = None, largoCola = 0):
-        super().__init__(nombre, edad, habitat, genero, zona)
+    def __int__(self, nombre= None, edad=0, habitat=None, genero=None, colorEscamas = None, largoCola = 0):
+        super().__init__(nombre, edad, habitat, genero)
         super().totalAnimales +=1
         self.__colorEscamas = colorEscamas
         self.__largoCola = largoCola
