@@ -7,5 +7,5 @@ from zooAnimales.pez import Pez
 from zooAnimales.reptil import Reptil
 from zooAnimales.animal import Animal
 
-zoo = Zoologico("Central park", "Calle Principal")
-print (zoo.getNombre())
+an1 = Animal("Perro", 10, "casa", "m")
+print(an1)

@@ -1,8 +1,7 @@
 class Animal:
-    totalAnimales =0
+    _totalAnimales =0
 
     def __init__(self, nombre = None, edad = 0, habitat = None, genero = None, zona= None):
-        totalAnimales += 1
         self.__nombre = nombre
         self.__edad = edad
         self.__habitat = habitat
