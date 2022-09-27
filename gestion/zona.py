@@ -25,7 +25,6 @@ class Zona:
         self.__animal = animal
 
     def agregarAnimales(self, animal):
-        if isinstance(animal, Animal):
             self.__animal.append(animal)
 
     def cantidadAnimales(self):
