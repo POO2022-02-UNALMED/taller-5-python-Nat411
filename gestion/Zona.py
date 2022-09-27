@@ -12,11 +12,12 @@ class Zona:
     def setNombre(self,nombre):
         self.__nombre = nombre
 
-    def getZoo(self):
-        return self.__zoo
+    
     def setZoo(self, zoo):
         if isinstance(zoo, Zoologico):
             self.__zoo = zoo
+    def getZoo(self):
+        return self.__zoo
         
     def getAnimal(self):
         return self.__animal
