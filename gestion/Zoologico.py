@@ -28,7 +28,6 @@ class Zoologico:
         c = 0
         for i in self.__zonas:
             c += self.__zonas[i].cantidadAnimales()
-
         return c
 
 
