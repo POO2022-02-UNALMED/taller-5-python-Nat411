@@ -6,7 +6,6 @@ class Mamifero (Animal):
 
     def __int__(self, nombre= None, edad=0, habitat=None, genero=None, pelaje = False, patas = 0):
         super().__init__(nombre, edad, habitat, genero)
-        super().totalAnimales +=1
         self.__pelaje = pelaje
         self.__patas = patas
         self.listado.append(self)

@@ -6,7 +6,6 @@ class Pez (Animal):
 
     def __int__(self, nombre= None, edad=0, habitat=None, genero=None, colorEscamas = None, cantidadAletas = 0):
         super().__init__(nombre, edad, habitat, genero)
-        super().totalAnimales +=1
         self.__colorEscamas = colorEscamas
         self.__cantidadAletas = cantidadAletas
         self.listado.append(self)
