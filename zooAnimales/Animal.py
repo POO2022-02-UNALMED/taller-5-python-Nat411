@@ -2,6 +2,7 @@ from zooAnimales.Anfibio import Anfibio
 from zooAnimales.Mamifero import Mamifero
 from zooAnimales.Ave import Ave
 from zooAnimales.Pez import Pez
+from zooAnimales.Reptil import Reptil
 
 class Animal:
     totalAnimales =0
