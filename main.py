@@ -7,5 +7,5 @@ from zooAnimales.pez import Pez
 from zooAnimales.reptil import Reptil
 from zooAnimales.animal import Animal
 
-an1 = Animal("Perro", 10, "casa", "m")
-print(an1)
+mam1 = Mamifero("persona", 50, "ciudad", "F", False, 2)
+print(mam1)
