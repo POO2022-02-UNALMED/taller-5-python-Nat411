@@ -1,7 +1,6 @@
 from gestion.zoologico import Zoologico
-from zooAnimales.animal import *
+from zooAnimales.animal import Animal
 class Zona:
-    pass
 
     def __init__(self, nombre = None, zoo = None, animal = []) :
         self.__nombre = nombre

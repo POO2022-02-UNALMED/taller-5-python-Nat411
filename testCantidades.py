@@ -5,7 +5,6 @@ from zooAnimales.ave import Ave
 from zooAnimales.mamifero import Mamifero
 from zooAnimales.pez import Pez
 from zooAnimales.reptil import Reptil
-from zooAnimales.animal import Animal
 
 zoo = Zoologico("Zoologico Central", "Chicago")
 z1 = Zona("zona1")
