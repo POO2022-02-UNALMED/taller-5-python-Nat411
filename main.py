@@ -7,5 +7,5 @@ from zooAnimales.pez import Pez
 from zooAnimales.reptil import Reptil
 from zooAnimales.animal import Animal
 
-mam1 = Mamifero("persona", 50, "ciudad", "F", False, 2)
-print(mam1)
+ave1 = Ave("paloma", 5, "ciudad", "F", "gris")
+print(ave1.getColorPlumas())
